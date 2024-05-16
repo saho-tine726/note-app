@@ -1,0 +1,106 @@
+.sidebar {
+  width: 30%;
+  height: 100vh;
+  border-right: 1px solid #ddd;
+  background: #fffffd;
+}
+
+.sidebar_head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  border-bottom: 1px solid #ccc;
+}
+
+.sidebar_title {
+  margin: 0;
+  font-size: 36px;
+}
+
+.sidebar_addBtn {
+  border-radius: 20px;
+  background: #068f34;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 45px;
+  line-height: 1;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+.sidebar_notes {
+  height: calc(100vh - 78px);
+  overflow-y: auto;
+}
+
+.sidebar_note {
+  padding: 25px 25px 15px;
+  cursor: pointer;
+  transition: all 0.4s;
+  border-bottom: 1px solid #ccc;
+}
+
+.sidebar_note-active {
+  background: #eee;
+}
+
+.sidebar_note:hover {
+  background: #eee;
+}
+
+.sidebar_noteTitle {
+  margin: 0;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.sidebar_noteContent {
+  margin: 10px 0 0;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.sidebar_noteBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidebar_noteDate {
+  color: #999;
+  font-size: 14px;
+}
+
+.sidebar_deleteBtn {
+  border-radius: 5px;
+  background: #959e94;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 30px;
+  line-height: 1;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+}
+
+button {
+  transition: all 0.4s;
+}
+
+button:hover {
+  opacity: 0.6;
+}
