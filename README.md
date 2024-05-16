@@ -1,8 +1,19 @@
-# React + Vite
+# note-app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 概要
+ノートのように使えるアプリです。
 
-Currently, two official plugins are available:
+## 使用言語・ライブラリ・フレームワーク・ツール
+<p>
+<img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB">
+<img src="https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white">
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 解説・工夫した点など
+* デザインも自作
+* マークダウン機能を搭載（react-markdown）
+* 更新日が新しい記事が自動で一番上にくるように設定
+* データはローカルストレージに保存
+
+## デモサイト
+https://note-app-sepia-six.vercel.app/
